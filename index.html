@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="css/bootstrap.css">
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="stylesheet" href="css/bootstrap-grid.css">
+    	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    	<link rel="stylesheet" href="css/bootstrap-reboot.css">
+    	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+		
+		<script>
+    		var userAgent = navigator.userAgent + '';
+    		if (userAgent.indexOf('iPhone') > -1) {
+      			document.write('<script src="js/lib/cordova-iphone.js"></sc' + 'ript>');
+      			var mobile_system = 'iphone';
+    		} else if (userAgent.indexOf('Android') > -1) {
+      			document.write('<script src="js/lib/cordova-android.js"></sc' + 'ript>');
+      			var mobile_system = 'android';
+    		} else {
+      			var mobile_system = '';
+    		}
+  		</script>
+  
+  		<script src="js/lib/jquery.js"></script>
+
+  		<script src="js/bootstrap.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
+
+
+		<title>Home</title>
+		
+	</head>
+	<body>
+		<!-- Container -->
+		<div class="container">
+			
+			<!-- Title/Nav bar: Hamburger, White,  -->
+			<nav class="navbar navbar-light">
+				<!-- hamburgersign -->
+				<button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+
+
+				<img src="images/logo.png" class="img-fluid float-left" alt="Ashesi Logo">
+
+				<div class="dropdown float-right">
+					<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    	<img src="images/user_icon.png" class="img-fluid" alt="User Icon">
+					</a>
+				  	<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    	<a class="dropdown-item" href="#">Profile</a>
+				    	<a class="dropdown-item" href="#">Settings</a>
+				    	<a class="dropdown-item" href="#">Logout</a>
+				  	</div>
+				</div>
+			</nav>
+			
+			<!-- Title -->
+			<nav class="navbar navbar-dark bg-dark">
+				<h1 class="text-light">Home</h1>
+			</nav>
+			
+			<!-- Sidebar -->
+			<div>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="pages/ba_page.html">Business Administration Department</a></li>
+					<li><a href="pages/ah_page.html">Arts and Humanities Department</a></li>
+					<li><a href="pages/cs_page.html">Computer Science Department</a></li>
+					<li><a href="pages/ce_page.html">Engineering Department</a></li>
+				</ul>
+			</div>
+			
+			<!-- Content -->
+			<div>
+				<h1>Our Mission</h1>
+				<p>To educate ethical, entrepreneurial leaders in Africa; to cultivate within students, the critical thinking skills, concern for others, and the courage it will take to transform our continent.</p>
+
+				<h1>About Ashesi University College</h1>
+				<p>Since our founding in 2002, Ashesi has established a reputation as a leader in undergraduate education in Africa, with an educational experience that fosters ethical leadership, an entrepreneurial mindset and the ability to solve complex problems. These qualities are what set Ashesi students and alumni apart. Across various industries today, Ashesi graduates are highly sought, and over 90% have stayed to work for progress in Africa.</p>
+
+				<p>At the heart of the Ashesi experience is our interdisciplinary core curriculum, and our campus culture. Ashesi students come from 24 countries across the globe to learn, live and innovate together; almost half are on scholarships, and 48% are women. On campus, these students join with faculty and Ashesi leadership on a shared mission to transform the African continent.</p>
+
+				<h6>Mission</h6>
+				<p>To educate ethical and entrepreneurial leaders in Africa; to cultivate in students, the critical thinking skills, concern for others and the courage it will take to transform our continent.</p>
+
+				<h6>The Ashesi Way -- the principles that define us</h6>
+				<ul>
+					<li>Scholarship</li>
+					<li>Leadership</li>
+					<li>Citizenship</li>
+					<li>At a Glance</li>
+				</ul>
+
+				<h6>Degree Programs</h6>
+				<ul>
+					<li>BSc Business Administration</li>
+					<li>BSc Management Information Systems</li>
+					<li>BSc Computer Science</li>
+					<li>BSc Electrical and Electronic Engineering</li>
+					<li>BSc Computer Engineering</li>
+					<li>BSc Mechanical Engineering</li>
+				</ul>
+			</div>
+			
+		</div>
+	</body>
+</html>
